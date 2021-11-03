@@ -44,6 +44,7 @@ const makeCategoryElement = (category, data) => {
         <button class="nxt-btn"><img src="img/nxt.png" alt=""></button>
     </div>
     `;
+
   makeCards(category, data);
 };
 
@@ -63,5 +64,10 @@ const makeCards = (id, data) => {
             <p class="movie-title">${item.title}</p>
         </div>
         `;
+    if (i == data.lenght - 1) {
+      setTimeout(() => {
+        setupScrolling();
+      }, 100);
+    }
   });
 };

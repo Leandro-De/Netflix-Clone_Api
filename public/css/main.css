@@ -141,7 +141,6 @@ body {
   background: #181818;
   border: none;
   outline: none;
-  opacity: 0;
 }
 .pre-btn {
   left: -0.5vw;
@@ -156,9 +155,4 @@ body {
   width: 20px;
   height: 20px;
   object-fit: contain;
-}
-
-.pre-btn:hover,
-.nxt-btn:hover {
-  opacity: 1;
 }
