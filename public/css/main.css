@@ -105,7 +105,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.movie-category::-webkit-scrollbar {
+.movie-container::-webkit-scrollbar {
   display: none;
 }
 
